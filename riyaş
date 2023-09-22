@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Yükleme Formu</title>
+</head>
+<body>
+    <h1>Video Yükleme Formu</h1>
+    
+    <form action="video_yukle.php" method="post" enctype="multipart/form-data">
+        <label for="video">Video Seç:</label>
+        <input type="file" name="video" id="video" accept="video/*" required>
+        <br>
+        <input type="submit" value="Video Yükle">
+    </form>
+</body>
+</html>
